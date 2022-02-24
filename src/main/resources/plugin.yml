@@ -1,0 +1,25 @@
+name: DiscordBotMinecraftMaven
+version: '${project.version}'
+main: be.spinaker.main.MainDiscordBotMinecraftMaven
+api-version: 1.18
+commands:
+  stop:
+    description: A command to stop the server
+  cancel :
+    description: A command to cancel the server from stopping
+  getMaxBackups:
+    description: A command that returns you the max backups that will be kept.
+  setMaxBackups:
+    description: A command that sets the max amount of backups you want to to keep.
+  setBackupsInterval:
+    description: A command that sets the interval between each backups.
+  getBackupsInterval:
+    description: A command that gets the interval between two backups.
+  backup:
+    description: A command that makes a backup.
+  help:
+    description: A command that gives you a list of the possible commands and what purpose they serves.
+  todo:
+    description: A command to manage a todo list
+  killCount:
+    description: A command that gives you a recap of who you killed and how many times
